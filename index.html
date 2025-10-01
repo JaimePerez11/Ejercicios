@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnimalCity</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <input class="btn-open" type="checkbox" id="checked">
+        <label  class="btn-menu" for="checked">=</label>
+        <div class="header__logo">
+            <img class="header__logo" src="/img/Animal.png">
+        </div>
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item">
+                    <a href="#hero">Inicio</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#productos">Productos</a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#ofertas">Ofertas</a>
+                </li>
+                <li class="header__nav-item">
+                <a href="#testimonios">Conocenos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main-wrapper">
+            <section id="hero" class="hero">
+                <div class="hero-content">
+                    <h1>Bienvenido a AnimalCity</h1>
+                    <p>Tu distribuidor confiable de alimentos  tus para mascotas. Nutre a tu perro o gato con lo mejor. Y ¡descubre nuestras ofertas exclusivas!</p>
+                    <a href="#productos" class="btn">Compra ahora</a>
+                </div>
+                <img src="img/logo.png" alt="Mascota feliz con alimentos AnimalCity" class="hero-image">
+            </section>
+            <section id="productos" class="productos">
+                <h2>Productos Destacados</h2>
+                <div class="productos-grid">
+                    <div class="producto">
+                        <img src="img/imgAntigua.jpg" alt="Croquetas premium para perros">
+                        <h3>Croquetas Premium para Perros</h3>
+                        <p>Fórmula balanceada con vitaminas esenciales para la salud óptima de tu mascota.</p>
+                        <p class="precio">$15.000</p>
+                        <a href="#" class="btn">Agregar al carrito</a>
+                    </div>
+                    <div class="producto">
+                        <img src="img/Animal.png" alt="Alimento para gatos">
+                        <h3>Alimento Húmedo para Gatos</h3>
+                        <p>Sabor delicioso y nutritivo, ideal para felinos exigentes.</p>
+                        <p class="precio">$12.000</p>
+                        <a href="#" class="btn">Agregar al carrito</a>
+                    </div>
+                    <div class="producto">
+                        <img src="img/logo.png" alt="Snacks para mascotas">
+                        <h3>Snacks Naturales</h3>
+                        <p>Premios saludables hechos con ingredientes naturales.</p>
+                        <p class="precio">$8.000</p>
+                        <a href="#" class="btn">Agregar al carrito</a>
+                    </div>
+                </div>
+            </section>
+            <section id="ofertas" class="ofertas">
+                <h2>Ofertas Especiales</h2>
+                <div class="oferta">
+                    <img src="img/Animal.png" alt="Pack familiar de alimentos">
+                    <h3>Pack Familiar: 20% off</h3>
+                    <p>Combo especial de comida para perros y gatos. ¡Aprovecha hoy y ahorra!</p>
+                    <p class="precio-original">$50.000</p>
+                    <p class="precio">$40.000</p>
+                    <a href="#" class="btn">Comprar pack</a>
+                </div>
+            </section>
+            <section id="testimonios" class="testimonios">
+                <h2>Lo que dicen nuestros clientes</h2>
+                <div class="testimonios-grid">
+                    <div class="testimonio">
+                        <p>"Excelente calidad, mis perros aman estas croquetas. Recomiendo AnimalCity 100%."</p>
+                        <cite>- María González</cite>
+                    </div>
+                    <div class="testimonio">
+                        <p>"Los mejores precios y entrega rápida. Mis gatos nunca habían comido tan bien."</p>
+                        <cite>- Carlos Ramírez</cite>
+                    </div>
+                    <div class="testimonio">
+                        <p>"Servicio al cliente excepcional. Siempre encuentro lo que necesito para mis mascotas."</p>
+                        <cite>- Ana López</cite>
+                    </div>
+                </div>
+            </section>
+            <section id="cta" class="cta">
+                <h2>¡No esperes más!</h2>
+                <p>Suscríbete a nuestro newsletter y recibe ofertas exclusivas directamente en tu correo.</p>
+                <form class="newsletter">
+                    <input type="email" placeholder="Tu email" required>
+                    <button type="submit" class="btn">Suscribirme</button>
+                </form>
+                <p>O contáctanos: <a href="mailto:info@animalcity.com">info@animalcity.com</a></p>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
